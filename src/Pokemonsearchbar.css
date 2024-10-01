@@ -1,0 +1,24 @@
+.searchcontainer {
+  max-width: 150px;
+}
+
+.searchbar {
+  border-radius: 10px;
+  padding: 3px;
+  width: 150px;
+  height: 24px;
+}
+
+.pokemonlist {
+  list-style-type: none;
+  padding: 0px;
+  max-height: 300px;
+  overflow: scroll;
+  cursor: pointer;
+  background-color: black;
+  max-width: 150px;
+}
+
+.pokemonlist li:hover {
+  background-color: pink;
+}
