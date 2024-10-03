@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './Pokemonsearchbar.css';
 import SelectedPokemon from './SelectedPokemon.jsx'
 
@@ -95,5 +95,5 @@ export default function Pokemonsearch() {
       )}
       <SelectedPokemon pokemon={selectedPokemon} />
     </div>
-  )
+  );
 }

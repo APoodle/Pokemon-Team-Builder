@@ -8,7 +8,6 @@ import './index.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar />
-    <Pokemonsearchbar />
     <PokemonTeam />
   </StrictMode>,
 )
