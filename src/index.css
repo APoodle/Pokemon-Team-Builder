@@ -18,3 +18,8 @@
   color: black;
   background: #f55bdb;
 }
+
+.flex {
+  display: flex;
+}
+

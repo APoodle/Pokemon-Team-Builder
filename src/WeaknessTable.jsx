@@ -3,7 +3,7 @@ import './WeaknessTable.css'
 
 export default function WeaknessTable() {
   return (
-    <div>
+    <div className='pt-5'>
       <table>
         <tr>
           <th>Type</th>

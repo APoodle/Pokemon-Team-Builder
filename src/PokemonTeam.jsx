@@ -19,7 +19,7 @@ export default function PokemonTeam() {
   };
 
   return (
-    <>
+    <div className='flex'>
       <div>
         <input 
           type='text' 
@@ -29,8 +29,8 @@ export default function PokemonTeam() {
         />
       </div>
       
-      <div className='p-2 team-container'>
-        <div className='pt-border'>
+      <div className='team-container flex'>
+        <div className='pt-border p-2'>
           <img 
             onClick={handleClick} 
             id='0'
@@ -39,9 +39,8 @@ export default function PokemonTeam() {
               selectedPokemon[0] ? (`https://projectpokemon.org/images/sprites-models/bdsp-sprites/${selectedPokemon[0]}.png`)
               : ('https://projectpokemon.org/images/sprites-models/bdsp-sprites/465.png')} 
           />
-          <p>{currentId}</p>
         </div>
-        <div className='pt-border'>
+        <div className='pt-border p-2'>
           <img 
             onClick={handleClick} 
             id='1'
@@ -50,9 +49,8 @@ export default function PokemonTeam() {
               selectedPokemon[1] ? (`https://projectpokemon.org/images/sprites-models/bdsp-sprites/${selectedPokemon[1]}.png`)
               : ('https://projectpokemon.org/images/sprites-models/bdsp-sprites/465.png')} 
           />
-          <p>Add Pokemon</p>
         </div>
-        <div className='pt-border'>
+        <div className='pt-border p-2'>
           <img 
             onClick={handleClick} 
             id='2'
@@ -61,9 +59,8 @@ export default function PokemonTeam() {
               selectedPokemon[2] ? (`https://projectpokemon.org/images/sprites-models/bdsp-sprites/${selectedPokemon[2]}.png`)
               : ('https://projectpokemon.org/images/sprites-models/bdsp-sprites/465.png')} 
           />
-          <p>Add Pokemon</p>
         </div>
-        <div className='pt-border'>
+        <div className='pt-border p-2'>
           <img 
             onClick={handleClick} 
             id='3'
@@ -72,9 +69,8 @@ export default function PokemonTeam() {
               selectedPokemon[3] ? (`https://projectpokemon.org/images/sprites-models/bdsp-sprites/${selectedPokemon[3]}.png`)
               : ('https://projectpokemon.org/images/sprites-models/bdsp-sprites/465.png')} 
           />
-          <p>Add Pokemon</p>
         </div>
-        <div className='pt-border'>
+        <div className='pt-border p-2'>
           <img 
             onClick={handleClick} 
             id='4'
@@ -83,9 +79,8 @@ export default function PokemonTeam() {
               selectedPokemon[4] ? (`https://projectpokemon.org/images/sprites-models/bdsp-sprites/${selectedPokemon[4]}.png`)
               : ('https://projectpokemon.org/images/sprites-models/bdsp-sprites/465.png')} 
           />
-          <p>Add Pokemon</p>
         </div>
-        <div className='pt-border'>
+        <div className='pt-border p-2'>
           <img 
             onClick={handleClick} 
             id='5'
@@ -94,9 +89,8 @@ export default function PokemonTeam() {
               selectedPokemon[5] ? (`https://projectpokemon.org/images/sprites-models/bdsp-sprites/${selectedPokemon[5]}.png`)
               : ('https://projectpokemon.org/images/sprites-models/bdsp-sprites/465.png')} 
           />
-          <p>Add Pokemon</p>
         </div>
       </div>
-    </>
+    </div>
   )
 }

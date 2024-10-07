@@ -2,9 +2,12 @@
   display: inline-block;
 }
 
+
 .type-contain {
   max-width: 64px;
   max-height: 64px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .temp-padding-left {

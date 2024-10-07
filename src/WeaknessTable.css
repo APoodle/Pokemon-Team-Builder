@@ -3,11 +3,18 @@ table {
 }
 
 th {
-  width: 128px;
-  border: 1px solid black;
+  width: 145px;
+  border: 1px solid white;
 }
 
 td {
-  width: 128px;
-  border: 1px solid black;
+  width: 188px;
+  border: 1px solid white;
+  overflow-x: auto;
+  text-align: center;
 }
+
+.pt-5 {
+  padding-top: 5;
+}
+
