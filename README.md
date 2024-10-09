@@ -4,6 +4,9 @@ This is my attempt to make a team builder for Pokémon. This is mainly going to 
 I am currently using this as an opportunity to learn React so that I can eventually make the stats viewer.
 
 ## Features
+V 0.2
+Was able to display a table, but how I set it up originally makes it hard to pull up the types...
+
 V 0.1
 Right now all you can do is select Pokémon... Only with the National Pokédex number... Up to Generation 4... This is very bare bones.
 
